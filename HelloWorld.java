@@ -5,7 +5,7 @@ public class HelloWorld{
       Scanner sc = new Scanner(System.in);
       System.out.print("Input your name: ");
       name = sc.next();
-      System.out.println("Hello World I am " + name);
       System.out.println("Hello World This is TDTU");
+      System.out.println("Hello World I am " + name);
    }
 }
