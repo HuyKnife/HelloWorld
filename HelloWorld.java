@@ -10,7 +10,7 @@ public class HelloWorld{
         sc = new Scanner(file);
         System.out.println("Hello World This is TDTU");
         while(sc.hasNextLine()){
-            System.out.print(sc.nextLine()+ "\n");
+            System.out.print("Hello World I am " + sc.nextLine()+ "\n");
         }
    }
 }
