@@ -8,7 +8,7 @@ public class HelloWorld{
         System.out.print("Input student list: ");
         File file = new File(sc.nextLine());
         sc = new Scanner(file);
-        //System.out.println("Hello World This is TDTU");
+        System.out.println("Hello World This is TDTU");
         while(sc.hasNextLine()){
             System.out.print(sc.nextLine()+ "\n");
         }
