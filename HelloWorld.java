@@ -14,5 +14,6 @@ public class HelloWorld{
             System.out.print("Hello World I am " + sc.nextLine()+ "\n");
             count++;
         }
+        System.out.println(count);
    }
 }
